@@ -1,0 +1,85 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://cdn.contentful.com/spaces/vd02lcrceozr/sync?sync_token=w7Ese3kdwpMbMhhgw7QAUsKiw6bCi09CwpFYwpwywqVYw6DDh8OawrTDpWvCgMOhw6jCuAhxWX_CocOPwowhcsOzeEJSbUnCuSJtw5vDocOjO2cTwobCnG5zwpDCqcOSwqvCgEnCh1HChilGwoDCv0Nmw4cUe8KuTDbCtcOdw6jDtGDCv1A4w5TCjsKQQ8KiwqkAGSUKw6rDpTfCncO8LsK0wogow6LDtQ
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Contentful-User-Agent:
+      - sdk contentful.rb/2.1.0; platform ruby/2.4.1; os Linux;
+      Authorization:
+      - Bearer 0a9662295e05839ff583b9d30eb7fd71629b8c398535db15fef57cdf1f9820c7
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - close
+      Host:
+      - cdn.contentful.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - Accept,Accept-Language,Authorization,Cache-Control,Content-Length,Content-Range,Content-Type,DNT,Destination,Expires,If-Match,If-Modified-Since,If-None-Match,Keep-Alive,Last-Modified,Origin,Pragma,Range,User-Agent,X-Http-Method-Override,X-Mx-ReqToken,X-Requested-With,X-Contentful-Version,X-Contentful-Content-Type,X-Contentful-Organization,X-Contentful-Skip-Transformation,X-Contentful-User-Agent
+      Access-Control-Allow-Methods:
+      - GET,HEAD,OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Etag
+      Access-Control-Max-Age:
+      - '86400'
+      Cache-Control:
+      - max-age=0
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Etag:
+      - '"095b77a1eefc6c034eec84032da2d2eb"'
+      Server:
+      - Contentful
+      X-Content-Type-Options:
+      - nosniff
+      X-Contentful-Request-Id:
+      - '09ebd969ef604ed27f9c1d46deb78142'
+      Content-Length:
+      - '364'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 12 Jun 2017 22:56:22 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '9331'
+      Connection:
+      - close
+      X-Served-By:
+      - cache-fra1245-FRA
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      X-Timer:
+      - S1497308182.338471,VS0,VE0
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+          "sys": {
+            "type": "Array"
+          },
+          "items": [],
+          "nextSyncUrl": "https://cdn.contentful.com/spaces/vd02lcrceozr/sync?sync_token=w7Ese3kdwpMbMhhgw7QAUsKiw6bCi09CwpFYwpwywqVYw6DDh8OawrTDpWvCgMOhw6jCuAhxWX_CocOPwowhcsOzeEJSbUnCuSJtw5vDocOjO2cTwobCnG5zwpDCqcOSwqvCgEnCh1HChilGwoDCv0Nmw4cUe8KuTDbCtcOdw6jDtGDCv1A4w5TCjsKQQ8KiwqkAGSUKw6rDpTfCncO8LsK0wogow6LDtQ"
+        }
+    http_version: 
+  recorded_at: Mon, 12 Jun 2017 21:56:24 GMT
+recorded_with: VCR 3.0.3
