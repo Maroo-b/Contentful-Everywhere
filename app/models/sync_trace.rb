@@ -1,0 +1,2 @@
+class SyncTrace < ApplicationRecord
+end
