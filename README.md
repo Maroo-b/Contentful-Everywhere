@@ -1,24 +1,11 @@
-# README
+# Contentful Everywhere
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Demo application that uses Contentful sync API [Link](https://www.contentful.com/developers/docs/concepts/sync/)
 
-Things you may want to cover:
+Available Endpoints:
 
-* Ruby version
+* Launch initial Synchronization: GET "/api/products/synchronize?initial=true"
 
-* System dependencies
+* Continue Synchrnonization: GET "/api/products/synchronize"
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Get available products: GET "/api/products"
