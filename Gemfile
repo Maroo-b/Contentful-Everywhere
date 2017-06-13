@@ -21,6 +21,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'contentful' #Ruby Client for Contentful CDA
 gem 'figaro' #ENV variables management
+gem 'sucker_punch', '~> 2.0' #background jobs
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
